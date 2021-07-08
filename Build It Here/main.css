@@ -1,0 +1,445 @@
+/*
+                                                               `/shmNNNmho-                         
+                                                             `sNNNNNNNNNNNNy`                       
+                                                            -mNNNms/---+mNNNd                       
+                                                            /hmNh`      .NNNN:                      
+                                                              ```       -NNNN:                      
+                                                                     `-omNNNh                       
+                                                             `.:/+sydmNNNNNs`                       
+                                                    `.-:/oyhdmmNNNNNNNNmh+.                         
+                                           `.-:/+sydmmNNNNNNNNNmdhys+:-`                            
+                                   `.-:+oyhdmmNNNNNNNNmdhhso/:..``                                  
+                          `.-:/+shddmNNNNNNNNNmdhyo+:-.``.-:: .:+shhhys/.                           
+                 ``.-:+oyhdmmNNNNNNNNmdhyso/-..`        /mNNNymNNNNNNNNNmy.                         
+             ./shddmNNNNNNNNNmdhyo+:-.``  `....`        +NNNNNNNdyo++sdNNNd.                        
+           :ymNNNNNNmddymNNNs.`       ./shdmmmmdho-     +NNNNNd/`     .dNNNs                        
+          +NNNNds+:-.`  dNNNo       -ymNNNNNmmNNNNNs`   +NNNNy`        sNNNh                        
+         :NNNN+`        dNNNo     `sNNNNds/----+mNNNd`  +NNNN`         sNNNd                        
+         sNNNd          dNNNo    `hNNNm+`       .NNNN+  +NNNN          yNNNy                        
+         +NNNm-  ``     dNNNo    yNNNd.          dNNNs  +NNNN         /NNNN:                        
+         `hNNNmyydh:    dNNNo   .NNNN:           dNNNo  +NNNN:     `-yNNNNo                         
+          `omNNNNNNm-   dNNNo   :NNNN`          /NNNN-  +NNNNNy+++sdNNNNd/                          
+            `:+oo+:`    dNNNo   -NNNN.        `+NNNNs   +NNNNNNNNNNNNmd+`                           
+                        dNNNo    dNNNh-`   `.+dNNNNo    +NNNNoyhhhyo/.                              
+                        dNNNo    .dNNNNdyyhdNNNNNh-     +NNNN          /s-                          
+                        dNNNo     `+dNNNNNNNNNdo-       oNNNm        .hNNNy`                        
+                        dNNNo        .:/+o+/-`     `.:/yNNNN+       .mNNNd-                         
+                        dNNNo              `-:-   .NNNNNNNm/        dNNNh`                          
+                        dNNN+          /ydNNNN+   -NNNmhs:         :NNNN.                           
+                        -:.`         :mNNNNNNm/    -.              +NNNm                            
+                                    :NNNNy:.`      `-/+o+/-        +NNNm                            
+                        :+sy/       yNNNh       `+hNNNNNNNNms.     +NNNm                            
+                        dNNNo       yNNNy     `omNNNNmhyhNNNNm-    +NNNm                            
+                        dNNNo       yNNNy    `hNNNNs-`   `yNNNd    +NNNm                            
+                        dNNNo       yNNNy    yNNNd-       :NNNN`   +NNNm                            
+                        dNNNo       yNNNy   .NNNN:        :NNNN`   +NNNm  `.-/+-                    
+                        dNNNo       yNNNy   -NNNN.        :NNNN`   +NNNNhdmmNNNo                    
+                        dNNNo       yNNNy   -NNNN.       `/NNNN`   +NNNNNNNNmdh:         `/oyh`     
+                        dNNNo       yNNNy   -NNNN:-:/oyhdmNNNNN`   +NNNNo/:..``          `mNNN+     
+                        dNNNo       yNNNy   -NNNNmNNNNNNNNNNNNN`   +NNNm                  sNNNh     
+                        dNNNo  `.-:+dNNNy   -NNNNNmdhhso/:/NNNN`   +NNNm                  sNNNd     
+                      `.dNNNdhddmNNNNNNNy   -NNNN:.``     :NNNN`   /NNNN`                `dNNNs     
+              `.-:+oyhdmNNNNNNNNNmdhmNNNy   -NNNN.        :NNNN`   `mNNNs               `sNNNm.     
+           -+ydmNNNNNNNNNNNNdo+:-.``yNNNy   -NNNN.        `o+:-     /NNNNy-           `/dNNNm:      
+        `/hmNNNNmddys+/-dNNNo       yNNNy   -Nmdh`                   :dNNNNho:-....-/sdNNNNh-       
+       -hNNNNdo:.`      dNNNo       smmdo    -.`                      `/hNNNNNNmmmmNNNNNmy:         
+      /mNNNh:`          dNNNo       .-.`                                `-+ydmmNNNmmdhs/.           
+     /NNNNo`            dNNNo                                               `..----.`               
+    `mNNNs             `mNNN+                                                                       
+    -NNNN.             sNNNm`                                                                       
+    -NNNN.           `sNNNN/                                                                        
+     dNNNh`        .+mNNNm/                                                                         
+     -mNNNmo:-.-:oyNNNNNy.                                                                          
+      .sNNNNNNNNNNNNNms-                                                                            
+        ./ydmNNNmdy+-                                                                               
+             ```                                                                                    
+*/
+
+/* # Foundations
+---------------------------------------------------------------------------------------------------- */
+
+/* ## Baseline Normalize
+--------------------------------------------- */
+/* normalize.css v4.1.1 | MIT License | http://necolas.github.io/normalize.css/ */
+
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}template,[hidden]{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:bold}button,input{overflow:visible}button,select{text-transform:none}button,html [type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:0.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+
+
+/* ## Fonts
+--------------------------------------------- */
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('fonts/RobotoSlab-Regular.woff2') format('woff2'),
+        url('fonts/RobotoSlab-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Black.woff2') format('woff2'),
+        url('fonts/Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Italic.woff2') format('woff2'),
+        url('fonts/Roboto-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.woff2') format('woff2'),
+        url('fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-BlackItalic.woff2') format('woff2'),
+        url('fonts/Roboto-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* # Test Classes
+---------------------------------------------------------------------------------------------------- */
+
+.container {
+    display: grid;
+    height: calc(100vh - 5rem);
+    grid-template-columns: .5fr repeat(15, 1fr) .5fr;
+    grid-template-rows: .2fr 1fr 1fr 1fr .1fr;
+    padding: 1rem 4rem 4rem 4rem;
+    grid-column-gap: 1.6rem;
+}
+
+.logo {
+    grid-row: 1;
+    grid-column: 8/10;
+    display: flex;
+    margin: auto;
+    height: 4rem;
+    margin-bottom: .2rem;
+}
+
+.jumbo-img {
+    max-height: 100%;
+    width: 100%;
+}
+
+.left-img {
+   grid-column: 2/9;
+   grid-row: 2/6;
+   display: flex;
+   z-index: 0;
+}
+
+.right-img {
+    grid-column: 9/17;
+    grid-row: 2/6;
+    display: flex;
+    z-index: 0;
+}
+
+.shop-txt {
+    font-family: "Roboto Slab";
+    white-space: nowrap;
+}
+
+.left-img-txt {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+    color: white;
+    grid-column: 5/7;
+    grid-row: 3/4;
+    z-index: 2;
+}
+
+.right-img-txt {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+    color: white;
+    grid-column: 12/14;
+    grid-row: 3/4;
+    z-index: 2;
+}
+
+.left-img-marks {
+    grid-column: 2/9;
+    grid-row: 2/6;
+    display: flex;
+    z-index: 1;
+}
+
+.right-img-marks {
+    grid-column: 9/17;
+    grid-row: 2/6;
+    display: flex;
+    z-index: 1;
+}
+
+.feature-top {
+    grid-column: 7/11;
+    grid-row: 3/4;
+    z-index: 3;
+    display: flex;
+    align-items: flex-end;
+}
+
+.feature-bottom {
+    grid-column: 8/10;
+    grid-row: 4/5;
+    z-index: 3;
+    display: flex;
+    align-items: flex-start;
+}
+
+.feature-img {
+    max-width: 100%;
+}
+
+.feature-content-top {
+    grid-column: 8/10;
+    grid-row: 3/4;
+    background-color: white;
+    z-index: 4;
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.feature-content-bottom {
+    grid-column: 8/10;
+    grid-row: 4/5;
+    background-color: white;
+    z-index: 4;
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.feature-text-top {
+    font-family: "Roboto Slab";
+    margin: 20% 5% 10% 5%;
+    text-align: center;
+    color: #344052;
+    line-height: 1.9rem;
+    font-size: .8vw;
+}
+
+.feature-text-bottom {
+    font-family: "Roboto";
+    font-weight: 900;
+    text-align: center;
+    color: #2e3a4d;
+    line-height: 1.6rem;
+    font-size: 1vw;
+}
+
+.feature-arrow {
+    width: 10%;
+    height: auto;
+    display: inline;
+    margin-right: .5rem;
+    margin-bottom: 1.8rem;
+}
+
+.email-backdrop {
+    grid-column: 6/12;
+    grid-row: 5/6;
+    z-index: 4;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: baseline;
+    height: 70px;
+}
+
+.email-backdrop-img {
+    width: 100%;
+    max-height: 100%;
+    margin-bottom: 0px;
+}
+
+.email-text {
+    grid-column: 6/9;
+    grid-row: 5/6;
+    z-index: 5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+.email-heading {
+    font-family: "Roboto";
+    font-weight: normal;
+    color: #344052;
+    font-size: 1.5rem;
+    margin: 0px 10px 10px 0px;
+    word-spacing: 5px;
+    white-space: nowrap;
+}
+
+.email-input {
+    grid-column: 9/11;
+    grid-row: 5/6;
+    z-index: 5;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 7px;
+}
+
+.email-input-box {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 80%;
+}
+
+::placeholder {
+    color: #344052;
+    font-family: "Roboto Slab";
+    font-weight: normal;
+    font-size: 1.3rem;
+    opacity: 1;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+@media only screen and (max-width:1300px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: .2fr repeat(6, 1fr) .2fr;
+        grid-gap: 1rem;
+        padding: 1rem 2rem 2rem 2rem;
+        height: auto;
+    }
+
+    .logo {
+        grid-column: 1/5;
+    }
+
+    .jumbo-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .left-img {
+        grid-column: 1/5;
+        grid-row: 2/4;
+    }
+
+    .right-img {
+        grid-column: 1/5;
+        grid-row: 5/7;
+    }
+
+    .shop-txt {
+        margin: 0px;
+    }
+
+    .left-img-txt {
+        grid-column: 1/5;
+        grid-row: 3/4;
+        align-items: flex-start;
+        margin: auto;
+        margin-top: 0px;
+    }
+
+    .right-img-txt {
+        grid-column: 1/5;
+        grid-row: 6/7;
+        align-items: flex-start;
+        margin: auto;
+        margin-top: 0px;
+    }
+
+    .left-img-marks {
+        grid-column: 1/5;
+        grid-row: 2/4;
+    }
+
+    .right-img-marks {
+        grid-column: 1/5;
+        grid-row: 5/7;
+    }
+
+    .feature-top {
+        display: none;
+    }
+
+    .feature-bottom {
+        display: none;
+    }
+
+    .feature-img {
+        display: none;
+    }
+
+    .feature-content-top {
+        grid-column: 1/5;
+        grid-row: 4/5;
+        margin: 0px;
+        height: 100%;
+        border: 1px solid #344052;
+    }
+
+    .feature-content-top > h3 {
+        font-size: 2rem;
+    }
+
+    .feature-content-bottom {
+        grid-column: 1/5;
+        grid-row: 7/8;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        border: 1px solid #2e3a4d;
+    }
+
+    .feature-content-bottom > h2 {
+        font-size: 2.2rem;
+        line-height: 1.8rem;
+        margin-top: 2rem;
+    }
+
+    .email-backdrop {
+        grid-column: 1/5;
+        grid-row: 8/9;
+    }
+
+    .email-text {
+        grid-column: 1/3;
+        grid-row: 8/9;
+    }
+
+    .email-text > h3 {
+        font-size: 1rem;
+    }
+
+    .email-input {
+        grid-column: 3/5;
+        grid-row: 8/9;
+    }
+
+    .email-input > ::placeholder {
+        font-size: 1rem;
+    }
+}
